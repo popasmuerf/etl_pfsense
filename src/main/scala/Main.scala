@@ -37,43 +37,59 @@ object Main{
     val action:Option[String] = Option(actionPttrn.findFirstIn(record).get)
     println(protocolPttrn.findFirstIn(record).get)
     val protocol: Option[String] = Option(protocolPttrn.findFirstIn(record).get)
-
     val recordStr = buildRecordStr(day,time,dateTime,ipAddress,socket,action,protocol)
-    println(recordStr.get)
+    if(recordStr != None)
+      println(recordStr.get)
+    else
+      println("Error!!!! mangled record!!!!")
 
     }
    def buildRecordStr(day:Option[String],time:Option[String],dateTime:Option[String],ipAddress:Option[String],socket:Option[List[String]],action:Option[String],protocol:Option[String]): Option[String] = {
      var recordStr:String = ""
      day match{
-       case None => {println("Error") ; return None}
+       case None => {//println("Error") ;
+                      return None
+                    }
        case _ => recordStr = day.get
      }
      time match{
-       case None => {println("Error") ; return None}
+       case None => {//println("Error") ;
+                      return None
+                    }
        case _ => {recordStr += " " ; recordStr += time.get}
      }
      dateTime match{
-       case None => {println("Error") ; return None}
+       case None => {//println("Error") ;
+                      return None
+                    }
        case _ => {recordStr += " " ; recordStr += dateTime.get}
      }
      ipAddress match{
-       case None => {println("Error") ; return None}
+       case None => {//println("Error") ;
+                      return None
+                    }
        case _ => {recordStr += " " ; recordStr += ipAddress.get}
      }
      socket match{
-       case None => {println("Error") ; return None}
+       case None => {//println("Error") ;
+                      return None
+                    }
        case _ => {recordStr += " " ; val socketList = socket.get ; recordStr += socketList(0) ; recordStr += " "  ;recordStr += socketList(1) }
      }
      action match{
-       case None => {println("Error") ; return None}
+       case None => {//println("Error") ;
+                      return None
+                    }
        case _ => {recordStr += " " ; recordStr += action.get}
      }
      protocol match{
-       case None => {println("Error") ; return None}
+       case None => {//println("Error") ;
+                      return None
+                    }
        case _ => {recordStr += " " ; recordStr += protocol.get}
      }
 
      return Option(recordStr)
-
    }
+  def writeToSwimeLane(): Unit ={}
 }

@@ -45,31 +45,31 @@ object Main{
    def buildRecordStr(day:Option[String],time:Option[String],dateTime:Option[String],ipAddress:Option[String],socket:Option[List[String]],action:Option[String],protocol:Option[String]): Option[String] = {
      var recordStr:String = ""
      day match{
-       case None => "Error"
+       case None => {println("Error") ; return None}
        case _ => recordStr = day.get
      }
      time match{
-       case None => "Error"
+       case None => {println("Error") ; return None}
        case _ => {recordStr += " " ; recordStr += time.get}
      }
      dateTime match{
-       case None => "Error"
+       case None => {println("Error") ; return None}
        case _ => {recordStr += " " ; recordStr += dateTime.get}
      }
      ipAddress match{
-       case None => "Error"
+       case None => {println("Error") ; return None}
        case _ => {recordStr += " " ; recordStr += ipAddress.get}
      }
      socket match{
-       case None => "Error"
+       case None => {println("Error") ; return None}
        case _ => {recordStr += " " ; val socketList = socket.get ; recordStr += socketList(0) ; recordStr += " "  ;recordStr += socketList(1) }
      }
      action match{
-       case None => "Error"
+       case None => {println("Error") ; return None}
        case _ => {recordStr += " " ; recordStr += action.get}
      }
      protocol match{
-       case None => "Error"
+       case None => {println("Error") ; return None}
        case _ => {recordStr += " " ; recordStr += protocol.get}
      }
 

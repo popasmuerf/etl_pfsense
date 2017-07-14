@@ -1,0 +1,13 @@
+products:
+   src/main/scala/Main.scala -> build/classes/main/Main$$anonfun$parseRecord$1.class
+   src/main/scala/Main.scala -> build/classes/main/Main$.class
+   src/main/scala/Main.scala -> build/classes/main/Main.class
+binary dependencies:
+   src/main/scala/Main.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+   src/main/scala/Main.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
+source dependencies:
+external dependencies:
+class names:
+   src/main/scala/Main.scala -> Main
+   src/main/scala/Main.scala -> Main$
+   src/main/scala/Main.scala -> Main$$anonfun$parseRecord$1

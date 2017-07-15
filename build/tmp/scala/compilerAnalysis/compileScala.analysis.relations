@@ -1,13 +1,25 @@
 products:
-   src/main/scala/Main.scala -> build/classes/main/Main$$anonfun$parseRecord$1.class
+   src/main/scala/Driver.scala -> build/classes/main/Driver$.class
+   src/main/scala/Driver.scala -> build/classes/main/Driver.class
    src/main/scala/Main.scala -> build/classes/main/Main$.class
    src/main/scala/Main.scala -> build/classes/main/Main.class
+   src/main/scala/PFsenseProcessor.scala -> build/classes/main/PFsenseProcessor$.class
+   src/main/scala/PFsenseProcessor.scala -> build/classes/main/PFsenseProcessor.class
 binary dependencies:
-   src/main/scala/Main.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+   src/main/scala/Driver.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
+   src/main/scala/Driver.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.2/fe9780170207ebdabd4ac5bb335c82bd0aead480/scala-library-2.12.2.jar
+   src/main/scala/Driver.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
+   src/main/scala/Main.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
+   src/main/scala/Main.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.2/fe9780170207ebdabd4ac5bb335c82bd0aead480/scala-library-2.12.2.jar
    src/main/scala/Main.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
+   src/main/scala/PFsenseProcessor.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.2/fe9780170207ebdabd4ac5bb335c82bd0aead480/scala-library-2.12.2.jar
+   src/main/scala/PFsenseProcessor.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
 source dependencies:
 external dependencies:
 class names:
+   src/main/scala/Driver.scala -> Driver
+   src/main/scala/Driver.scala -> Driver$
    src/main/scala/Main.scala -> Main
    src/main/scala/Main.scala -> Main$
-   src/main/scala/Main.scala -> Main$$anonfun$parseRecord$1
+   src/main/scala/PFsenseProcessor.scala -> PFsenseProcessor
+   src/main/scala/PFsenseProcessor.scala -> PFsenseProcessor$

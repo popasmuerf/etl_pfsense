@@ -18,10 +18,10 @@ repositories {
 
 dependencies {
     compile 'org.slf4j:slf4j-api:1.7.5'
-   compile "org.scala-lang:scala-library:"+scalaVersion
-   compile "org.scala-lang:scala-reflect:"+scalaVersion
-   compile "org.scala-lang:scala-compiler:"+scalaVersion
-    compile group: 'org.scala-lang', name: 'scala-library', version: '2.12.2'
+    compile "org.scala-lang:scala-library:"+scalaVersion
+    compile "org.scala-lang:scala-reflect:"+scalaVersion
+    compile "org.scala-lang:scala-compiler:"+scalaVersion
+    //compile group: 'org.scala-lang', name: 'scala-library', version: '2.12.2'
     compile 'org.apache.spark:spark-mllib_2.11:2.1.0'
     compile 'org.apache.spark:spark-sql_2.11:2.1.0'
     compile 'org.apache.spark:spark-streaming-flume-assembly_2.11:2.1.0'

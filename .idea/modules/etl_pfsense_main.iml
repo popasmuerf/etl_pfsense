@@ -10,6 +10,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-library:2.11.8" level="project" />
     <orderEntry type="library" name="Gradle: org.scala-lang:scala-reflect:2.11.8" level="project" />
     <orderEntry type="library" name="Gradle: org.scala-lang:scala-compiler:2.11.8" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.spark:spark-mllib_2.11:2.1.0" level="project" />
@@ -154,7 +155,6 @@
     <orderEntry type="library" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.sonatype.sisu.inject:cglib:2.2.1-v20090111" level="project" />
     <orderEntry type="library" name="Gradle: jline:jline:0.9.94" level="project" />
-    <orderEntry type="library" name="Gradle: org.scala-lang:scala-library:2.12.2" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.16" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />

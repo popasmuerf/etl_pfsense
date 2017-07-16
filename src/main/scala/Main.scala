@@ -1,3 +1,5 @@
+import com.sun.org.apache.bcel.internal.classfile.LineNumber
+
 import scala.util.matching.Regex
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
@@ -20,7 +22,15 @@ object Main{
     sparkConf.setMaster(sparkMaster)
     val sc = new SparkContext(sparkConf)
     val logFile = sc.textFile(filePath)
-    val collectedLogFile = logFile.collect()
-    for (elem <- collectedLogFile) {println(elem)}
+    val processedLog = logFile.map(x => PFsenseProcessor.parseRecord(x))
+    val collectedProcessedLog: Array[Option[String]] = processedLog.collect()
+    if(collectedProcessedLog.length > 0){
+        for(elem <- collectedProcessedLog){
+          println(elem.toString)
+        }
+    }else{
+      println("list empty")
+    }
+    //for (elem <- collectedLogFile) {println(elem)}
   }
 }

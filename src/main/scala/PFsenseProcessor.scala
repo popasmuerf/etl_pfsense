@@ -2,7 +2,7 @@
   * Created by mdb on 7/13/17.
   */
 object PFsenseProcessor {
-  def parseRecord(record:String):Unit= {
+  def parseRecord(record:String):Option[String]= {
     /*
     val dayPttrn = "(^\\w{3}\\s{1}\\d{1,2})".r  //day pattern
     val timePttrn = "\\d{2}:\\d{2}:\\d{2}".r  //time pattern
@@ -36,10 +36,14 @@ object PFsenseProcessor {
     //println(protocolPttrn.findFirstIn(record).get)
     val protocol: Option[String] = protocolPttrn.findFirstIn(record)
     val recordStr = buildRecordStr(day, time, dateTime, ipAddress, port, action, protocol)
-    if (recordStr != None)
-      println(s"line:${lineNumber}" + " " + recordStr.get)
-    else
-      println(s"Record at line:${lineNumber} does not conform to known format")
+    if (recordStr != None) {
+        //println(s"line:${lineNumber}" + " " + recordStr.get)
+        return recordStr
+    }
+    else {
+        println(s"Record at line:${lineNumber} does not conform to known format")
+        return None
+    }
   }
   def buildRecordStr(day:Option[String],time:Option[String],dateTime:Option[String],ipAddress:Option[List[String]],port:Option[List[String]],action:Option[String],protocol:Option[String]): Option[String] = {
     var recordStr:String = ""

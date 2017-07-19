@@ -1,14 +1,11 @@
-
-import com.typesafe.config.Config
+import com.typesafe.config.{Config, ConfigFactory}
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 import org.apache.spark.streaming._
 import spark.jobserver.SparkStreamingJob
 import org.apache.spark.SparkContext
+import org.apache.spark.internal.config
 import spark.jobserver.{SparkJob, SparkJobInvalid, SparkJobValid, SparkJobValidation}
-
-
-
 
 import scala.util.Try
 /**
@@ -102,15 +99,29 @@ object PFSenseLogParserJob extends SparkJob {
 
     return Option(recordStr)
   }
-
-  override def runJob(sc: SparkContext, jobConfig: Config): Any = {
+/*
+  override def runJob(sc: SparkContext, jobConfig: ConfigTest): Any = {
     val logFile: RDD[String] = sc.textFile(filePath)
     val processedLog: RDD[Option[String]] = logFile.map(x => parseRecord(x))
   }
 
-  override def validate(sc: SparkContext, config: Config): SparkJobValidation = {
+  override def validate(sc: SparkContext, config: ConfigTest): SparkJobValidation = {
+    /*
     Try(config.getString("input.string"))
       .map(x => SparkJobValid)
       .getOrElse(SparkJobInvalid("No input.string config param"))
+      */
+    //SparkJobValid
+    null
+  }
+  */
+  override def runJob(sc: SparkContext, jobConfig: com.typesafe.config.Config): Any = {
+    val logFile: RDD[String] = sc.textFile(filePath)
+    val processedLog: RDD[Option[String]] = logFile.map(x => parseRecord(x))
+
+  }
+
+  override def validate(sc: SparkContext, config: com.typesafe.config.Config): SparkJobValidation = {
+    SparkJobValid
   }
 }

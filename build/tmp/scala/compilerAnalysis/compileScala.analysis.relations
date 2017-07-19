@@ -2,11 +2,24 @@ products:
    src/main/scala/Driver.scala -> build/classes/main/Driver$$anonfun$main$1.class
    src/main/scala/Driver.scala -> build/classes/main/Driver$.class
    src/main/scala/Driver.scala -> build/classes/main/Driver.class
+   src/main/scala/Main.scala -> build/classes/main/Main$$anonfun$1.class
    src/main/scala/Main.scala -> build/classes/main/Main$$anonfun$main$1.class
    src/main/scala/Main.scala -> build/classes/main/Main$.class
    src/main/scala/Main.scala -> build/classes/main/Main.class
-   src/main/scala/PFsenseProcessor.scala -> build/classes/main/PFsenseProcessor$.class
-   src/main/scala/PFsenseProcessor.scala -> build/classes/main/PFsenseProcessor.class
+   src/main/scala/PFSenseLogParserJob.scala -> build/classes/main/PFSenseLogParserJob$$anonfun$1.class
+   src/main/scala/PFSenseLogParserJob.scala -> build/classes/main/PFSenseLogParserJob$$anonfun$validate$1.class
+   src/main/scala/PFSenseLogParserJob.scala -> build/classes/main/PFSenseLogParserJob$$anonfun$validate$2.class
+   src/main/scala/PFSenseLogParserJob.scala -> build/classes/main/PFSenseLogParserJob$$anonfun$validate$3.class
+   src/main/scala/PFSenseLogParserJob.scala -> build/classes/main/PFSenseLogParserJob$.class
+   src/main/scala/PFSenseLogParserJob.scala -> build/classes/main/PFSenseLogParserJob.class
+   src/main/scala/PFSenseLogParserStreamJob.scala -> build/classes/main/PFSenseLogParserStreamJob$.class
+   src/main/scala/PFSenseLogParserStreamJob.scala -> build/classes/main/PFSenseLogParserStreamJob.class
+   src/main/scala/PFSenseParserApp.scala -> build/classes/main/PFSenseParserApp$.class
+   src/main/scala/PFSenseParserApp.scala -> build/classes/main/PFSenseParserApp$Config$.class
+   src/main/scala/PFSenseParserApp.scala -> build/classes/main/PFSenseParserApp$Config.class
+   src/main/scala/PFSenseParserApp.scala -> build/classes/main/PFSenseParserApp.class
+   src/main/scala/PFsenseParser.scala -> build/classes/main/PFsenseParser$.class
+   src/main/scala/PFsenseParser.scala -> build/classes/main/PFsenseParser.class
 binary dependencies:
    src/main/scala/Driver.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
    src/main/scala/Driver.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
@@ -14,9 +27,22 @@ binary dependencies:
    src/main/scala/Main.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
    src/main/scala/Main.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
    src/main/scala/Main.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
-   src/main/scala/PFsenseProcessor.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
-   src/main/scala/PFsenseProcessor.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
+   src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.0/f533aa6ea13e443b50e639d070986c42d03efc35/config-1.3.0.jar
+   src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
+   src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+   src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/spark.jobserver/job-server-api_2.10/0.7.0/865d27cdaa0ce79f0df2a8a0d3ebd25d47ac83e3/job-server-api_2.10-0.7.0.jar
+   src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/spark.jobserver/job-server-extras_2.10/0.7.0/762305dd3f73dbe744e4a89b3df4234c94a01457/job-server-extras_2.10-0.7.0.jar
+   src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
+   src/main/scala/PFSenseLogParserStreamJob.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
+   src/main/scala/PFSenseParserApp.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.0/f533aa6ea13e443b50e639d070986c42d03efc35/config-1.3.0.jar
+   src/main/scala/PFSenseParserApp.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
+   src/main/scala/PFSenseParserApp.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-streaming_2.11/2.1.0/bea6543cff48750774c0d38a4aec87b9b1d04b3b/spark-streaming_2.11-2.1.0.jar
+   src/main/scala/PFSenseParserApp.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+   src/main/scala/PFSenseParserApp.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
+   src/main/scala/PFsenseParser.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+   src/main/scala/PFsenseParser.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
 source dependencies:
+   src/main/scala/Main.scala -> src/main/scala/PFsenseParser.scala
 external dependencies:
 class names:
    src/main/scala/Driver.scala -> Driver
@@ -24,6 +50,19 @@ class names:
    src/main/scala/Driver.scala -> Driver$$anonfun$main$1
    src/main/scala/Main.scala -> Main
    src/main/scala/Main.scala -> Main$
+   src/main/scala/Main.scala -> Main$$anonfun$1
    src/main/scala/Main.scala -> Main$$anonfun$main$1
-   src/main/scala/PFsenseProcessor.scala -> PFsenseProcessor
-   src/main/scala/PFsenseProcessor.scala -> PFsenseProcessor$
+   src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob
+   src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob$
+   src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob$$anonfun$1
+   src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob$$anonfun$validate$1
+   src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob$$anonfun$validate$2
+   src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob$$anonfun$validate$3
+   src/main/scala/PFSenseLogParserStreamJob.scala -> PFSenseLogParserStreamJob
+   src/main/scala/PFSenseLogParserStreamJob.scala -> PFSenseLogParserStreamJob$
+   src/main/scala/PFSenseParserApp.scala -> PFSenseParserApp
+   src/main/scala/PFSenseParserApp.scala -> PFSenseParserApp$
+   src/main/scala/PFSenseParserApp.scala -> PFSenseParserApp$Config
+   src/main/scala/PFSenseParserApp.scala -> PFSenseParserApp$Config$
+   src/main/scala/PFsenseParser.scala -> PFsenseParser
+   src/main/scala/PFsenseParser.scala -> PFsenseParser$

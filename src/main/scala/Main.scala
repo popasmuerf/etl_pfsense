@@ -22,7 +22,7 @@ object Main{
     sparkConf.setMaster(sparkMaster)
     val sc = new SparkContext(sparkConf)
     val logFile = sc.textFile(filePath)
-    val processedLog = logFile.map(x => PFsenseProcessor.parseRecord(x))
+    val processedLog = logFile.map(x => PFsenseParser.parseRecord(x))
     val collectedProcessedLog: Array[Option[String]] = processedLog.collect()
     if(collectedProcessedLog.length > 0){
         for(elem <- collectedProcessedLog){

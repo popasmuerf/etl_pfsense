@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <option name="optimiseBytecode" value="true" />
-    <profile name="Gradle 1" modules="etl_pfsense">
+    <profile name="Gradle 1" modules="etl_pfsense,etl_pfsense_main,etl_pfsense_test">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <parameters>

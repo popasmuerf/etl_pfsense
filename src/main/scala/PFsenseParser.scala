@@ -1,7 +1,7 @@
 /**
   * Created by mdb on 7/13/17.
   */
-object PFsenseProcessor {
+object PFsenseParser {
   def parseRecord(record:String):Option[String]= {
     /*
     val dayPttrn = "(^\\w{3}\\s{1}\\d{1,2})".r  //day pattern
@@ -18,7 +18,7 @@ object PFsenseProcessor {
     val dateTimePttrn = "\\w{3}\\s{1}\\d{1,2}\\s\\d{2}:\\d{2}:\\d{2}".r //nix -- DayTime
     val ipAddrPttrn = "\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}".r //ipAddr
     val portPttrn = ",(6553[0-5]|655[0-2][0-9]\\d|65[0-4](\\d){2}|6[0-4](\\d){3}|[1-5](\\d){4}|[1-9](\\d){0,3}){2}".r
-    val actionPttrn = "pass|block".r
+    val actionPttrn = "pass|block|drop|dropped".r
     val protocolPttrn = "tcp|udp|igmp|icmp".r
 
     //    println(dayPttrn.findFirstIn(record).get)

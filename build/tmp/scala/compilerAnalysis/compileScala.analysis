@@ -29,25 +29,50 @@ name hashing:
 1 items
 0 -> true
 products:
-8 items
+21 items
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Driver$$anonfun$main$1.class
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Driver$.class
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Driver.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Main$$anonfun$1.class
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Main$$anonfun$main$1.class
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Main$.class
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Main.class
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFsenseProcessor$.class
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFsenseProcessor.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob$$anonfun$1.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob$$anonfun$validate$1.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob$$anonfun$validate$2.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob$$anonfun$validate$3.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob$.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserStreamJob$.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserStreamJob.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseParserApp$.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseParserApp$Config$.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseParserApp$Config.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseParserApp.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFsenseParser$.class
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFsenseParser.class
 binary dependencies:
-8 items
+20 items
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.0/f533aa6ea13e443b50e639d070986c42d03efc35/config-1.3.0.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/spark.jobserver/job-server-api_2.10/0.7.0/865d27cdaa0ce79f0df2a8a0d3ebd25d47ac83e3/job-server-api_2.10-0.7.0.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/spark.jobserver/job-server-extras_2.10/0.7.0/762305dd3f73dbe744e4a89b3df4234c94a01457/job-server-extras_2.10-0.7.0.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.0/f533aa6ea13e443b50e639d070986c42d03efc35/config-1.3.0.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-streaming_2.11/2.1.0/bea6543cff48750774c0d38a4aec87b9b1d04b3b/spark-streaming_2.11-2.1.0.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> /Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -57,7 +82,8 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-0 items
+1 items
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -65,17 +91,30 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-8 items
+21 items
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> Driver
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> Driver$
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> Driver$$anonfun$main$1
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> Main
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> Main$
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> Main$$anonfun$1
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> Main$$anonfun$main$1
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> PFsenseProcessor
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> PFsenseProcessor$
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob$
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob$$anonfun$1
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob$$anonfun$validate$1
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob$$anonfun$validate$2
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob$$anonfun$validate$3
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> PFSenseLogParserStreamJob
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> PFSenseLogParserStreamJob$
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> PFSenseParserApp
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> PFSenseParserApp$
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> PFSenseParserApp$Config
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> PFSenseParserApp$Config$
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> PFsenseParser
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> PFsenseParser$
 used names:
-153 items
+305 items
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> !=
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> +
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> -
@@ -149,9 +188,14 @@ used names:
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> toList
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> util
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> <init>
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> >
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> AnyRef
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> Array
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> ClassTag
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> LineNumber
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> Main
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> Option
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> PFsenseParser
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> Predef
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> Regex
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> Source
@@ -160,17 +204,28 @@ used names:
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> String
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> Unit
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> apache
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> apply
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> bcel
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> classfile
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> collect
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> collectedLogFile
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> collectedProcessedLog
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> com
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> elem
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> filePath
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> foreach
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> internal
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> io
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> length
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> lineNumber
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> logFile
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> map
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> matching
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> materializeClassTag
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> org
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> package
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> parseRecord
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> println
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> processedLog
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> refArrayOps
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> sc
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> scala
@@ -180,98 +235,270 @@ used names:
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> sparkAppName
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> sparkConf
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> sparkMaster
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> sun
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> textFile
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> toString
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> util
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> !=
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> +
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> -
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> <
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> <init>
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> ==
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> AnyRef
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> List
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> None
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> Option
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> PFsenseProcessor
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> Predef
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> String
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> StringContext
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> Unit
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> action
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> actionPttrn
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> apply
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> augmentString
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> buildRecordStr
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> dateTime
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> dateTimePttrn
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> day
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> dayPttrn
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> findAllIn
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> findFirstIn
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> get
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> ipAddrPttrn
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> ipAddress
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> ipList
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> length
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> lineNumber
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> package
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> port
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> portList
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> portPttrn
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> println
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> protocol
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> protocolPttrn
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> r
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> record
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> recordStr
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> s
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> scala
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> time
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> timePttrn
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> toList
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> x
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> !=
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> +
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> -
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> <
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> <init>
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> ==
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> Any
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> ClassTag
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> Config
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> List
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> None
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> Option
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> Predef
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> RDD
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> SparkContext
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> SparkJob
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> SparkJobInvalid
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> SparkJobValid
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> SparkJobValidation
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> SparkStreamingJob
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> String
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> StringContext
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> Try
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> action
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> actionPttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> apache
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> apply
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> augmentString
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> buildRecordStr
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> com
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> config
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> dateTime
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> dateTimePttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> day
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> dayPttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> filePath
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> findAllIn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> findFirstIn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> get
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> getOrElse
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> getString
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> ipAddrPttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> ipAddress
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> ipList
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> jobserver
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> length
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> lineNumber
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> logFile
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> map
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> materializeClassTag
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> org
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> package
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> parseRecord
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> port
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> portList
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> portPttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> println
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> protocol
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> protocolPttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> r
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> rdd
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> record
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> recordStr
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> s
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> sc
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> scala
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> spark
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> streaming
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> textFile
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> time
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> timePttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> toList
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> typesafe
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> util
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> x
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> <init>
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> AnyRef
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> PFSenseLogParserStreamJob
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> scala
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> &&
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> <init>
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> ==
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> AbstractFunction7
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> AnyRef
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> Config
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> Int
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> List
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> None
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> PFSenseParserApp
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> Predef
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> Product
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> ScalaRunTime
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> Serializable
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> SparkConf
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> Statics
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> StreamingContext
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> String
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> Try
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> Unit
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> _toString
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> anyHash
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> apache
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> asInstanceOf
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> checkpointDirectory
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> com
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> conf
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> config
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> defaultParams
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> dstream
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> eq
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> finalizeHash
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> indexHTMLTemplate
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> isInstanceOf
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> logsDirectory
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> mix
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> org
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> outputDirectory
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> outputHTMLFile
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> package
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> runtime
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> scala
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> setAppName
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> setMaster
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> slideInterval
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> spark
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> streaming
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> toString
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> typedProductIterator
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> typesafe
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> util
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> windowLength
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> ||
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> !=
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> +
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> -
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> <
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> <init>
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> ==
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> AnyRef
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> List
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> None
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> Option
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> PFsenseParser
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> Predef
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> String
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> StringContext
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> action
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> actionPttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> apply
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> augmentString
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> buildRecordStr
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> dateTime
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> dateTimePttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> day
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> dayPttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> findAllIn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> findFirstIn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> get
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> ipAddrPttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> ipAddress
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> ipList
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> length
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> lineNumber
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> package
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> parseRecord
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> port
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> portList
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> portPttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> println
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> protocol
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> protocolPttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> r
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> record
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> recordStr
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> s
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> scala
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> time
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> timePttrn
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> toList
 product stamps:
-8 items
-/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Driver$$anonfun$main$1.class -> lastModified(1500162285000)
-/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Driver$.class -> lastModified(1500162285000)
-/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Driver.class -> lastModified(1500162285000)
-/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Main$$anonfun$main$1.class -> lastModified(1500162285000)
-/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Main$.class -> lastModified(1500162285000)
-/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Main.class -> lastModified(1500162285000)
-/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFsenseProcessor$.class -> lastModified(1500162285000)
-/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFsenseProcessor.class -> lastModified(1500162285000)
+21 items
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Driver$$anonfun$main$1.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Driver$.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Driver.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Main$$anonfun$1.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Main$$anonfun$main$1.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Main$.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/Main.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob$$anonfun$1.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob$$anonfun$validate$1.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob$$anonfun$validate$2.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob$$anonfun$validate$3.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob$.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserJob.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserStreamJob$.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseLogParserStreamJob.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseParserApp$.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseParserApp$Config$.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseParserApp$Config.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFSenseParserApp.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFsenseParser$.class -> lastModified(1500497673000)
+/Users/mdb/src6/etl/spark/etl_pfsense/build/classes/main/PFsenseParser.class -> lastModified(1500497673000)
 source stamps:
-3 items
+6 items
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> hash(1bf255d389e4996b7a5483b0417623a3e8242ffc)
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> hash(0d4771a9052ae675f3fee3f8c37645981fc95473)
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> hash(d3a8f894ac8655bfda97ba3d9c702d118fb236d9)
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> hash(4f68f5549db6b3fff30f9d448bbc770b6338a43a)
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> hash(edb7b85f185b5572b1db51fba3c445df7fac5572)
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> hash(0386ca874b6bc0d601616c35878380156fcf3ad5)
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> hash(dcc9c68e2eaf40fd8d24a61fc1bfcf48f6e0220b)
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> hash(d9c345a94995f1b8314c981c4fd1aee45fae3c74)
 binary stamps:
-3 items
-/Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar -> lastModified(1500162267000)
-/Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar -> lastModified(1500162262000)
+7 items
+/Users/mdb/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.0/f533aa6ea13e443b50e639d070986c42d03efc35/config-1.3.0.jar -> lastModified(1500415153000)
+/Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar -> lastModified(1500415150000)
+/Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-streaming_2.11/2.1.0/bea6543cff48750774c0d38a4aec87b9b1d04b3b/spark-streaming_2.11-2.1.0.jar -> lastModified(1500415150000)
+/Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar -> lastModified(1500415148000)
+/Users/mdb/.gradle/caches/modules-2/files-2.1/spark.jobserver/job-server-api_2.10/0.7.0/865d27cdaa0ce79f0df2a8a0d3ebd25d47ac83e3/job-server-api_2.10-0.7.0.jar -> lastModified(1500415151000)
+/Users/mdb/.gradle/caches/modules-2/files-2.1/spark.jobserver/job-server-extras_2.10/0.7.0/762305dd3f73dbe744e4a89b3df4234c94a01457/job-server-extras_2.10-0.7.0.jar -> lastModified(1500430965000)
 /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar -> lastModified(1492003602000)
 class names:
-3 items
-/Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar -> org.apache.spark.rdd.RDD
-/Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar -> scala.util.matching.Regex
+7 items
+/Users/mdb/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.0/f533aa6ea13e443b50e639d070986c42d03efc35/config-1.3.0.jar -> com.typesafe.config.Config
+/Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar -> org.apache.spark.SparkConf
+/Users/mdb/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-streaming_2.11/2.1.0/bea6543cff48750774c0d38a4aec87b9b1d04b3b/spark-streaming_2.11-2.1.0.jar -> org.apache.spark.streaming.StreamingContext$
+/Users/mdb/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar -> scala.collection.LinearSeqOptimized
+/Users/mdb/.gradle/caches/modules-2/files-2.1/spark.jobserver/job-server-api_2.10/0.7.0/865d27cdaa0ce79f0df2a8a0d3ebd25d47ac83e3/job-server-api_2.10-0.7.0.jar -> spark.jobserver.SparkJob
+/Users/mdb/.gradle/caches/modules-2/files-2.1/spark.jobserver/job-server-extras_2.10/0.7.0/762305dd3f73dbe744e4a89b3df4234c94a01457/job-server-extras_2.10-0.7.0.jar -> spark.jobserver.SparkStreamingJob
 /Users/mdb/.sdkman/candidates/java/8u131-zulu/jre/lib/rt.jar -> java.lang.Object
 internal apis:
-3 items
+6 items
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCoeze4AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJqgRox0AAZub3RpZnlzcQB+AAw92R6IdAAEd2FpdHNxAH4ADB+SOMh0AA0kYXNJbnN0YW5jZU9mc3EAfgAMpRma+HQAC3BhcnNlUmVjb3Jkc3EAfgAMVGpHQXQABmVxdWFsc3NxAH4ADGcQOp10AAxhc0luc3RhbmNlT2ZzcQB+AAyPIRu4dAAMc3luY2hyb25pemVkc3EAfgAMuwAZR3QACnJlY29yZHRlc3RzcQB+AAyfAKAsdAANJGlzSW5zdGFuY2VPZnNxAH4ADBhEmqR0AARtYWluc3EAfgAMfDg8nnQACW5vdGlmeUFsbHNxAH4ADLOfE+x0AAxpc0luc3RhbmNlT2ZzcQB+AAw1Tr6AdAALcmVjb3JkdGVzdDJzcQB+AAypI1DhdAAKbGluZU51bWJlcnNxAH4ADD0JS6B0ABB3cml0ZVRvU3dpbWVMYW5lc3EAfgAMY8/b9XQADmJ1aWxkUmVjb3JkU3Ryc3EAfgAMZYBGH3QAAj09c3EAfgAM1gyVYnQABkRyaXZlcnNxAH4ADD48w4B0AAVjbG9uZXNxAH4ADGSrWwJ0AAhmaWxlUGF0aHNxAH4ADJvFJMR0AAh0b1N0cmluZ3NxAH4ADI4R/cJ0AAIhPXNxAH4ADF32VtV0AAhnZXRDbGFzc3NxAH4ADPGj6hJ0AAtyZWNvcmR0ZXN0MXNxAH4ADCuWPuJ0AApwcm9jUmVjb3Jkc3EAfgAM4gzBkXQAAm5lc3EAfgAMDGIoQHQAAmVxc3EAfgAMq7aPcXQAAiMjc3EAfgAMSOKZInQACGZpbmFsaXplc3EAfgAMt0apeXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AU3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAxdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Aa3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AagBwc3EAfgBvc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFNMAAlpbmhlcml0ZWRxAH4AU0wAB3BhcmVudHNxAH4AU3hxAH4Ac3NxAH4AagBwc3EAfgBvdXEAfgBOAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBUcQB+AF11cQB+AF4AAAAAc3EAfgBgAHEAfgAhdXEAfgBiAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHJ0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgByc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCQdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AfXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AZXQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AhFsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AcnNxAH4Ag3QABUFycmF5cQB+AIl1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4Ag3QABlN0cmluZ3NxAH4Ah3NxAH4AinVxAH4AjQAAAANzcQB+AI90AARqYXZhc3EAfgCPdAAEbGFuZ3EAfgCUc3EAfgBqAHBzcQB+AG91cQB+AE4AAAAAc3EAfgBqAHBzcQB+AG91cQB+AKgAAAACc3EAfgCDdAAGT2JqZWN0cQB+AKxzcQB+AIN0AANBbnlxAH4AiXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFdSKPZmHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADgvVXNlcnMvbWRiL3NyYzYvZXRsL3NwYXJrL2V0bF9wZnNlbnNlL2J1aWxkL2NsYXNzZXMvbWFpbnQAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFBvyVdOJ5JlrelSDsEF2I6PoJC/8
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCoeze4AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJqgRox0AAZub3RpZnlzcQB+AAw92R6IdAAEd2FpdHNxAH4ADB+SOMh0AA0kYXNJbnN0YW5jZU9mc3EAfgAMpRma+HQAC3BhcnNlUmVjb3Jkc3EAfgAMVGpHQXQABmVxdWFsc3NxAH4ADGcQOp10AAxhc0luc3RhbmNlT2ZzcQB+AAyPIRu4dAAMc3luY2hyb25pemVkc3EAfgAMuwAZR3QACnJlY29yZHRlc3RzcQB+AAyfAKAsdAANJGlzSW5zdGFuY2VPZnNxAH4ADBhEmqR0AARtYWluc3EAfgAMfDg8nnQACW5vdGlmeUFsbHNxAH4ADLOfE+x0AAxpc0luc3RhbmNlT2ZzcQB+AAw1Tr6AdAALcmVjb3JkdGVzdDJzcQB+AAypI1DhdAAKbGluZU51bWJlcnNxAH4ADD0JS6B0ABB3cml0ZVRvU3dpbWVMYW5lc3EAfgAMY8/b9XQADmJ1aWxkUmVjb3JkU3Ryc3EAfgAMZYBGH3QAAj09c3EAfgAM1gyVYnQABkRyaXZlcnNxAH4ADD48w4B0AAVjbG9uZXNxAH4ADGSrWwJ0AAhmaWxlUGF0aHNxAH4ADJvFJMR0AAh0b1N0cmluZ3NxAH4ADI4R/cJ0AAIhPXNxAH4ADF32VtV0AAhnZXRDbGFzc3NxAH4ADPGj6hJ0AAtyZWNvcmR0ZXN0MXNxAH4ADCuWPuJ0AApwcm9jUmVjb3Jkc3EAfgAM4gzBkXQAAm5lc3EAfgAMDGIoQHQAAmVxc3EAfgAMq7aPcXQAAiMjc3EAfgAMSOKZInQACGZpbmFsaXplc3EAfgAMt0apeXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AU3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAxdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Aa3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AagBwc3EAfgBvc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFNMAAlpbmhlcml0ZWRxAH4AU0wAB3BhcmVudHNxAH4AU3hxAH4Ac3NxAH4AagBwc3EAfgBvdXEAfgBOAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBUcQB+AF11cQB+AF4AAAAAc3EAfgBgAHEAfgAhdXEAfgBiAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHJ0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgByc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCQdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AfXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AZXQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AhFsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AcnNxAH4Ag3QABUFycmF5cQB+AIl1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4Ag3QABlN0cmluZ3NxAH4Ah3NxAH4AinVxAH4AjQAAAANzcQB+AI90AARqYXZhc3EAfgCPdAAEbGFuZ3EAfgCUc3EAfgBqAHBzcQB+AG91cQB+AE4AAAAAc3EAfgBqAHBzcQB+AG91cQB+AKgAAAACc3EAfgCDdAAGT2JqZWN0cQB+AKxzcQB+AIN0AANBbnlxAH4AiXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFdXKFrvXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADgvVXNlcnMvbWRiL3NyYzYvZXRsL3NwYXJrL2V0bF9wZnNlbnNlL2J1aWxkL2NsYXNzZXMvbWFpbnQAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFBvyVdOJ5JlrelSDsEF2I6PoJC/8
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAxizziAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPbjxQZ0AAZub3RpZnlzcQB+AAxOTUcbdAAEd2FpdHNxAH4ADGBKIyZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMogLr93QABmVxdWFsc3NxAH4ADIt3LQh0AAxhc0luc3RhbmNlT2ZzcQB+AAxIJtIodAAMc3luY2hyb25pemVkc3EAfgAMEvrNp3QADSRpc0luc3RhbmNlT2ZzcQB+AAwgch6MdAAEbWFpbnNxAH4ADF0q7PN0AAlub3RpZnlBbGxzcQB+AAyoh3JZdAAMaXNJbnN0YW5jZU9mc3EAfgAMiovpBHQACmxpbmVOdW1iZXJzcQB+AAxFQDFhdAACPT1zcQB+AAwx2KWWdAAFY2xvbmVzcQB+AAzwWuUBdAAIZmlsZVBhdGhzcQB+AAwLaVSLdAAETWFpbnNxAH4ADCnaold0AAh0b1N0cmluZ3NxAH4ADCjdrE10AAIhPXNxAH4ADPaO9rp0AAhnZXRDbGFzc3NxAH4ADNNLRrB0AAJuZXNxAH4ADP/Rprx0AAJlcXNxAH4ADHWHvIJ0AAIjI3NxAH4ADAzrfp90AAhmaW5hbGl6ZXNxAH4ADNTwSkd0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AK3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AF14cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFwAcHNxAH4AYXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBFTAAJaW5oZXJpdGVkcQB+AEVMAAdwYXJlbnRzcQB+AEV4cQB+AGVzcQB+AFwAcHNxAH4AYXVxAH4AQAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ARnEAfgBPdXEAfgBQAAAAAHNxAH4AUgBxAH4AHXVxAH4AVAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBkdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AG94cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFd0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHZbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGRzcQB+AHV0AAVBcnJheXEAfgB7dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHV0AAZTdHJpbmdzcQB+AHlzcQB+AHx1cQB+AH8AAAADc3EAfgCBdAAEamF2YXNxAH4AgXQABGxhbmdxAH4AhnNxAH4AXABwc3EAfgBhdXEAfgBAAAAAAHNxAH4AXABwc3EAfgBhdXEAfgCaAAAAAnNxAH4AdXQABk9iamVjdHEAfgCec3EAfgB1dAADQW55cQB+AHt1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXUij2Zh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL21kYi9zcmM2L2V0bC9zcGFyay9ldGxfcGZzZW5zZS9idWlsZC9jbGFzc2VzL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQNR3GpBSrmdfP+4/jDdkWYH8lUcw==
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBS+aNiAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKWi3Dp0AAZub3RpZnlzcQB+AAw/FvfxdAAEd2FpdHNxAH4ADPbNh010AA0kYXNJbnN0YW5jZU9mc3EAfgAMkxVLpHQAC3BhcnNlUmVjb3Jkc3EAfgAMiZEX2XQABmVxdWFsc3NxAH4ADEGnR4B0AAxhc0luc3RhbmNlT2ZzcQB+AAyfbK8IdAAMc3luY2hyb25pemVkc3EAfgAMJSq/U3QADSRpc0luc3RhbmNlT2ZzcQB+AAyde94HdAAJbm90aWZ5QWxsc3EAfgAMnOEXcHQADGlzSW5zdGFuY2VPZnNxAH4ADKuxxW50AA5idWlsZFJlY29yZFN0cnNxAH4ADF1KipZ0AAI9PXNxAH4ADOJqJlJ0AAVjbG9uZXNxAH4ADKkEGSl0AAh0b1N0cmluZ3NxAH4ADAXq9LB0AAIhPXNxAH4ADOlcYNZ0AAhnZXRDbGFzc3NxAH4ADK5XQnN0ABBQRnNlbnNlUHJvY2Vzc29yc3EAfgAMkPQZ3XQAAm5lc3EAfgAMNaTVPHQAAmVxc3EAfgAMEjjrt3QAAiMjc3EAfgAMTUalS3QACGZpbmFsaXplc3EAfgAMw3HES3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAvdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AW3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWgBwc3EAfgBfc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AY3NxAH4AWgBwc3EAfgBfdXEAfgA+AAAAAHNxAH4AWgBwc3EAfgBfdXEAfgA+AAAAAHNxAH4AWgBwc3EAfgBfdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBidAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBic3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB/dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCAc3EAfgBzdAADQW55c3EAfgB3c3EAfgB6dXEAfgB9AAAAAnNxAH4Af3QABXNjYWxhcQB+AIZ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXUij2Zh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL21kYi9zcmM2L2V0bC9zcGFyay9ldGxfcGZzZW5zZS9idWlsZC9jbGFzc2VzL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTTqPiUrIZVv9qXuj2ccC0Rj7I22Q==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAxizziAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPbjxQZ0AAZub3RpZnlzcQB+AAxOTUcbdAAEd2FpdHNxAH4ADGBKIyZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMogLr93QABmVxdWFsc3NxAH4ADIt3LQh0AAxhc0luc3RhbmNlT2ZzcQB+AAxIJtIodAAMc3luY2hyb25pemVkc3EAfgAMEvrNp3QADSRpc0luc3RhbmNlT2ZzcQB+AAwgch6MdAAEbWFpbnNxAH4ADF0q7PN0AAlub3RpZnlBbGxzcQB+AAyoh3JZdAAMaXNJbnN0YW5jZU9mc3EAfgAMiovpBHQACmxpbmVOdW1iZXJzcQB+AAxFQDFhdAACPT1zcQB+AAwx2KWWdAAFY2xvbmVzcQB+AAzwWuUBdAAIZmlsZVBhdGhzcQB+AAwLaVSLdAAETWFpbnNxAH4ADCnaold0AAh0b1N0cmluZ3NxAH4ADCjdrE10AAIhPXNxAH4ADPaO9rp0AAhnZXRDbGFzc3NxAH4ADNNLRrB0AAJuZXNxAH4ADP/Rprx0AAJlcXNxAH4ADHWHvIJ0AAIjI3NxAH4ADAzrfp90AAhmaW5hbGl6ZXNxAH4ADNTwSkd0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AK3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AF14cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFwAcHNxAH4AYXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBFTAAJaW5oZXJpdGVkcQB+AEVMAAdwYXJlbnRzcQB+AEV4cQB+AGVzcQB+AFwAcHNxAH4AYXVxAH4AQAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ARnEAfgBPdXEAfgBQAAAAAHNxAH4AUgBxAH4AHXVxAH4AVAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBkdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AG94cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFd0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHZbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGRzcQB+AHV0AAVBcnJheXEAfgB7dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHV0AAZTdHJpbmdzcQB+AHlzcQB+AHx1cQB+AH8AAAADc3EAfgCBdAAEamF2YXNxAH4AgXQABGxhbmdxAH4AhnNxAH4AXABwc3EAfgBhdXEAfgBAAAAAAHNxAH4AXABwc3EAfgBhdXEAfgCaAAAAAnNxAH4AdXQABk9iamVjdHEAfgCec3EAfgB1dAADQW55cQB+AHt1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXVyha711cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL21kYi9zcmM2L2V0bC9zcGFyay9ldGxfcGZzZW5zZS9idWlsZC9jbGFzc2VzL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRPaPVUnbaz//MPnUSLvHcLYzikOg==
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAoeaH5AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLgQH5J0AAZub3RpZnlzcQB+AAx4updcdAAEd2FpdHNxAH4ADM+hmYl0AA0kYXNJbnN0YW5jZU9mc3EAfgAMSpD22XQAC3BhcnNlUmVjb3Jkc3EAfgAMC1QoXnQABmVxdWFsc3NxAH4ADDK8KM10AAxhc0luc3RhbmNlT2ZzcQB+AAw8eWz7dAAIdmFsaWRhdGVzcQB+AAwxLxFYdAAMc3luY2hyb25pemVkc3EAfgAMPjQ1xnQADSRpc0luc3RhbmNlT2ZzcQB+AAx+QjiudAAJbm90aWZ5QWxsc3EAfgAMnaDdfnQADGlzSW5zdGFuY2VPZnNxAH4ADL6RqCl0AAxuYW1lZE9iamVjdHNzcQB+AAz1bWCAdAAHSm9iRGF0YXNxAH4ADLKTAXl0AA5idWlsZFJlY29yZFN0cnNxAH4ADHw4oIN0AAI9PXNxAH4ADBrExkx0AAVjbG9uZXNxAH4ADLBuRhh0AAhmaWxlUGF0aHNxAH4ADBaW4aN0AAZydW5Kb2JzcQB+AAwJb+F5dAABQ3NxAH4ADA2HKdB0AAh0b1N0cmluZ3NxAH4ADLEbIi10AAlKb2JPdXRwdXRzcQB+AAylVMPTdAACIT1zcQB+AAz1WSX7dAAIZ2V0Q2xhc3NzcQB+AAxQD4IddAACbmVzcQB+AAx1QnOgdAATUEZTZW5zZUxvZ1BhcnNlckpvYnNxAH4ADGejeFt0AAJlcXNxAH4ADAmuFB50AAIjI3NxAH4ADMRrF8V0AAhmaW5hbGl6ZXNxAH4ADP7jMQV0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AP3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGl4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGgAcHNxAH4AbXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBRTAAJaW5oZXJpdGVkcQB+AFFMAAdwYXJlbnRzcQB+AFF4cQB+AHFzcQB+AGgAcHNxAH4AbXVxAH4ATAAAAABzcQB+AGgAcHNxAH4AbXVxAH4ATAAAAABzcQB+AGgAcHNxAH4AbXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAFc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AcHQACFNwYXJrSm9ic3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBwc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzcGFya3NxAH4AjXQACWpvYnNlcnZlcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCOc3EAfgCBdAAMU3BhcmtKb2JCYXNlcQB+AIdzcQB+AIF0AAxTcGFya0pvYkJhc2VzcQB+AIVzcQB+AIh1cQB+AIsAAAAEc3EAfgCNdAAFc3BhcmtzcQB+AI10AAlqb2JzZXJ2ZXJzcQB+AI10AANhcGlxAH4AlHNxAH4AgXQABk9iamVjdHNxAH4AhXNxAH4AiHVxAH4AiwAAAANzcQB+AI10AARqYXZhc3EAfgCNdAAEbGFuZ3EAfgCUc3EAfgCBdAADQW55c3EAfgCFc3EAfgCIdXEAfgCLAAAAAnNxAH4AjXQABXNjYWxhcQB+AJR1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXVyha711cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL21kYi9zcmM2L2V0bC9zcGFyay9ldGxfcGZzZW5zZS9idWlsZC9jbGFzc2VzL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTtt7hfGFtVcrHbUfujxEXff6xVcg==
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAA8hwpAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKacZJ50AAZub3RpZnlzcQB+AAxQ6hPddAAEd2FpdHNxAH4ADNlYMlZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMdxAol3QABmVxdWFsc3NxAH4ADF/LoFV0AAxhc0luc3RhbmNlT2ZzcQB+AAzkoPDsdAAMc3luY2hyb25pemVkc3EAfgAMTUSif3QADSRpc0luc3RhbmNlT2ZzcQB+AAxOkpvzdAAJbm90aWZ5QWxsc3EAfgAMDg6lsnQADGlzSW5zdGFuY2VPZnNxAH4ADC1VOmp0AAI9PXNxAH4ADI1rF2Z0AAVjbG9uZXNxAH4ADIcZlHt0AAh0b1N0cmluZ3NxAH4ADCHXjXF0AAIhPXNxAH4ADJ49QGV0AAhnZXRDbGFzc3NxAH4ADEdLgH90AAJuZXNxAH4ADFsEXmJ0AAJlcXNxAH4ADP0Gbwh0ABlQRlNlbnNlTG9nUGFyc2VyU3RyZWFtSm9ic3EAfgAMEd6XvHQAAiMjc3EAfgAM4HZtKnQACGZpbmFsaXplc3EAfgAMCIaMG3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AP3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAvdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AV3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AVgBwc3EAfgBbc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AD9MAAlpbmhlcml0ZWRxAH4AP0wAB3BhcmVudHNxAH4AP3hxAH4AX3NxAH4AVgBwc3EAfgBbdXEAfgA6AAAAAHNxAH4AVgBwc3EAfgBbdXEAfgA6AAAAAHNxAH4AVgBwc3EAfgBbdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBedAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBec3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB7dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB8c3EAfgBvdAADQW55c3EAfgBzc3EAfgB2dXEAfgB5AAAAAnNxAH4Ae3QABXNjYWxhcQB+AIJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXVyha711cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL21kYi9zcmM2L2V0bC9zcGFyay9ldGxfcGZzZW5zZS9idWlsZC9jbGFzc2VzL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQDhsqHS2vA1gFhbDWHg4AVb8861Q==
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDwIT4kAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAQXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJJ83ph0AAZub3RpZnlzcQB+AAzVPwRQdAAHdW5hcHBseXNxAH4ADLUXq2x0AAdjdXJyaWVkc3EAfgAM2TPTAHQABHdhaXRzcQB+AAwP/BMedAAPYXBwbHkkZGVmYXVsdCQ0c3EAfgAMemL8WnQAEDxpbml0PiRkZWZhdWx0JDVzcQB+AAxLn8ixdAARaW5kZXhIVE1MVGVtcGxhdGVzcQB+AAxqEneddAAOY29weSRkZWZhdWx0JDJzcQB+AAz+RL7EdAANbG9nc0RpcmVjdG9yeXNxAH4ADEK+fy90AA0kYXNJbnN0YW5jZU9mc3EAfgAMiZmtCnQAEDxpbml0PiRkZWZhdWx0JDZzcQB+AAxTBPAndAAOY29weSRkZWZhdWx0JDVzcQB+AAyAxlaQdAAQPGluaXQ+JGRlZmF1bHQkMXNxAH4ADLK6u6d0AAxwcm9kdWN0QXJpdHlzcQB+AAxZ6jh1dAAGZXF1YWxzc3EAfgAMnbp+tXQAEGdldFNsaWRlRHVyYXRpb25zcQB+AAxQ49FedAANc2xpZGVJbnRlcnZhbHNxAH4ADHde1jt0AAxhc0luc3RhbmNlT2ZzcQB+AAzu0Yv1dAAPYXBwbHkkZGVmYXVsdCQ3c3EAfgAMZM799XQADHN5bmNocm9uaXplZHNxAH4ADFc+oxF0ABA8aW5pdD4kZGVmYXVsdCQ3c3EAfgAMp/MaZXQADSRpc0luc3RhbmNlT2ZzcQB+AAxCQBaldAAPYXBwbHkkZGVmYXVsdCQzc3EAfgAMbR5iMnQAEDxpbml0PiRkZWZhdWx0JDRzcQB+AAzkV68VdAAGdHVwbGVkc3EAfgAMmCy2XHQAD291dHB1dERpcmVjdG9yeXNxAH4ADDgdTzN0AAhjYW5FcXVhbHNxAH4ADJgfFCF0AA5jb3B5JGRlZmF1bHQkNHNxAH4ADFefyzp0AARtYWluc3EAfgAMMVpDo3QAE2NoZWNrcG9pbnREaXJlY3RvcnlzcQB+AAw9LusqdAANcHJvZHVjdFByZWZpeHNxAH4ADKQNgeJ0AAlub3RpZnlBbGxzcQB+AAwBlYOIdAALcmVhZFJlc29sdmVzcQB+AAxqEGltdAARZ2V0V2luZG93RHVyYXRpb25zcQB+AAwCklNzdAAMaXNJbnN0YW5jZU9mc3EAfgAMVL5cJ3QADWRlZmF1bHRQYXJhbXNzcQB+AAwSPvQjdAAPYXBwbHkkZGVmYXVsdCQ2c3EAfgAM4oeq2nQAEDxpbml0PiRkZWZhdWx0JDNzcQB+AAzyDfi3dAAMd2luZG93TGVuZ3Roc3EAfgAMl+KjhHQABjxpbml0PnNxAH4ADEsC6cZ0AAZDb25maWdzcQB+AAwo9oakdAAPYXBwbHkkZGVmYXVsdCQyc3EAfgAM0e8mDHQABWFwcGx5c3EAfgAMDXRQiXQAEFBGU2Vuc2VQYXJzZXJBcHBzcQB+AAz+MTEodAACPT1zcQB+AAy13W6MdAAFY2xvbmVzcQB+AAxw6e09dAAOY29weSRkZWZhdWx0JDdzcQB+AAyrGL+vdAAOY29weSRkZWZhdWx0JDNzcQB+AAyGmTg7dAAEY29weXNxAH4ADLHVM3B0AA9hcHBseSRkZWZhdWx0JDFzcQB+AAyW5nGddAAIdG9TdHJpbmdzcQB+AAwfGTiGdAACIT1zcQB+AAz2LcI4dAAPYXBwbHkkZGVmYXVsdCQ1c3EAfgAMwalYQ3QACGdldENsYXNzc3EAfgAMGWONpnQADmNvcHkkZGVmYXVsdCQxc3EAfgAMU+2ernQADmNvcHkkZGVmYXVsdCQ2c3EAfgAM0e9HNnQAAm5lc3EAfgAMuh7+jnQADm91dHB1dEhUTUxGaWxlc3EAfgAMKf/VnXQAEDxpbml0PiRkZWZhdWx0JDJzcQB+AAyaVED+dAACZXFzcQB+AAzJM4vIdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMbVAZr3QAAiMjc3EAfgAMXQmmFnQACGZpbmFsaXplc3EAfgAMwePaGHQADnByb2R1Y3RFbGVtZW50c3EAfgAMGC64F3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AmXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgBldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AsXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AsABwc3EAfgC1c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AJlMAAlpbmhlcml0ZWRxAH4AmUwAB3BhcmVudHNxAH4AmXhxAH4AuXNxAH4AsABwc3EAfgC1dXEAfgCUAAAAAHNxAH4AsABwc3EAfgC1dXEAfgCUAAAAAHNxAH4AsABwc3EAfgC1dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgC4dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgC4c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgDVdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDWc3EAfgDJdAADQW55c3EAfgDNc3EAfgDQdXEAfgDTAAAAAnNxAH4A1XQABXNjYWxhcQB+ANx1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXVyha711cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL21kYi9zcmM2L2V0bC9zcGFyay9ldGxfcGZzZW5zZS9idWlsZC9jbGFzc2VzL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTcycaOLq9A/Y0kph/Bv89I9uAiCw==
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDMUm1VAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cIErfh90AAZub3RpZnlzcQB+AAwtEaF8dAAEd2FpdHNxAH4ADFB59md0AA0kYXNJbnN0YW5jZU9mc3EAfgAMY2gLEHQADVBGc2Vuc2VQYXJzZXJzcQB+AAxMxwdhdAALcGFyc2VSZWNvcmRzcQB+AAzfsvdTdAAGZXF1YWxzc3EAfgAMZbxd43QADGFzSW5zdGFuY2VPZnNxAH4ADDLImRJ0AAxzeW5jaHJvbml6ZWRzcQB+AAzy7hSZdAANJGlzSW5zdGFuY2VPZnNxAH4ADIBUgwJ0AAlub3RpZnlBbGxzcQB+AAw4JVnWdAAMaXNJbnN0YW5jZU9mc3EAfgAM1VN3anQADmJ1aWxkUmVjb3JkU3Ryc3EAfgAMpjrYcXQAAj09c3EAfgAMmqO1s3QABWNsb25lc3EAfgAMf/Mh8HQACHRvU3RyaW5nc3EAfgAMMKPITXQAAiE9c3EAfgAM0FyiIHQACGdldENsYXNzc3EAfgAM4hUUJ3QAAm5lc3EAfgAMFaJK4nQAAmVxc3EAfgAMmbajXHQAAiMjc3EAfgAMKWJicXQACGZpbmFsaXplc3EAfgAM5+fVlHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAVdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AW3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWgBwc3EAfgBfc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AY3NxAH4AWgBwc3EAfgBfdXEAfgA+AAAAAHNxAH4AWgBwc3EAfgBfdXEAfgA+AAAAAHNxAH4AWgBwc3EAfgBfdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBidAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBic3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB/dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCAc3EAfgBzdAADQW55c3EAfgB3c3EAfgB6dXEAfgB9AAAAAnNxAH4Af3QABXNjYWxhcQB+AIZ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXVyha711cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL21kYi9zcmM2L2V0bC9zcGFyay9ldGxfcGZzZW5zZS9idWlsZC9jbGFzc2VzL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTZw0WpSZXxuDFMmBxP0a7kX648dA==
 external apis:
 0 items
 source infos:
-3 items
+6 items
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Driver.scala -> 
 AAAAAAAAAAA=
 /Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/Main.scala -> 
 AAAAAAAAAAA=
-/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseProcessor.scala -> 
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserJob.scala -> 
+AAAAAAAAAAA=
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseLogParserStreamJob.scala -> 
+AAAAAAAAAAA=
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFSenseParserApp.scala -> 
+AAAAAAAAAAA=
+/Users/mdb/src6/etl/spark/etl_pfsense/src/main/scala/PFsenseParser.scala -> 
 AAAAAAAAAAA=
 compilations:
 1 items
-0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXUij2Zh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9tZGIvc3JjNi9ldGwvc3BhcmsvZXRsX3Bmc2Vuc2UvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXVyha711cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9tZGIvc3JjNi9ldGwvc3BhcmsvZXRsX3Bmc2Vuc2UvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==

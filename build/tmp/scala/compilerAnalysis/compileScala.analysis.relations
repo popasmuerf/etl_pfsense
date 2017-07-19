@@ -11,6 +11,7 @@ products:
    src/main/scala/PFSenseLogParserJob.scala -> build/classes/main/PFSenseLogParserJob$$anonfun$1.class
    src/main/scala/PFSenseLogParserJob.scala -> build/classes/main/PFSenseLogParserJob$.class
    src/main/scala/PFSenseLogParserJob.scala -> build/classes/main/PFSenseLogParserJob.class
+   src/main/scala/PFSenseLogParserStreamJob.scala -> build/classes/main/PFSenseLogParserStreamJob$$anonfun$1.class
    src/main/scala/PFSenseLogParserStreamJob.scala -> build/classes/main/PFSenseLogParserStreamJob$.class
    src/main/scala/PFSenseLogParserStreamJob.scala -> build/classes/main/PFSenseLogParserStreamJob.class
    src/main/scala/PFSenseParserApp.scala -> build/classes/main/PFSenseParserApp$.class
@@ -63,6 +64,7 @@ class names:
    src/main/scala/PFSenseLogParserJob.scala -> PFSenseLogParserJob$$anonfun$1
    src/main/scala/PFSenseLogParserStreamJob.scala -> PFSenseLogParserStreamJob
    src/main/scala/PFSenseLogParserStreamJob.scala -> PFSenseLogParserStreamJob$
+   src/main/scala/PFSenseLogParserStreamJob.scala -> PFSenseLogParserStreamJob$$anonfun$1
    src/main/scala/PFSenseParserApp.scala -> PFSenseParserApp
    src/main/scala/PFSenseParserApp.scala -> PFSenseParserApp$
    src/main/scala/PFsenseParser.scala -> PFsenseParser

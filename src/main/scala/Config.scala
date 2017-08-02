@@ -11,6 +11,7 @@ class Config(Window:Int = 1000,
              outPutDirectory:String="/tmp/outPF",
              indexHTMLTemplate:String="./src/main/resources/index.html.template") {
 
+  /*
   def getWindowDuration(): Unit ={
     new Duration(Window)
   }
@@ -18,6 +19,6 @@ class Config(Window:Int = 1000,
   def getSlideDuration(): Unit ={
     new Duration((slideInterval))
   }
-
+  */
 
 }

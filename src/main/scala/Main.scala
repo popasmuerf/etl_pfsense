@@ -15,10 +15,10 @@ import scala.io.Source
   */
 
 object Main{
-  /*
+
   var lineNumber = 1
-  val filePath = "/Users/mdb/data/logs/pfsense/pfsenselogs.txt"
-  val filePathPass = "/Users/mdb/data/logs/pfsense/pfsenselogs_pass.txt"
+  val filePath = "/home/mikeyb/data/text_files/logs/pfsense/pfsenselogs.txt"
+  val filePathPass = "/home/mikeyb/data/text_files/logs/pfsense/pfsenselogs_pass.txt"
   def main(args:Array[String]): Unit = {
     println("Thread: Main")
     val sparkMaster = "local[*]"
@@ -32,32 +32,12 @@ object Main{
     val collectedProcessedLog: Array[Option[String]] = processedLog.collect()
     if(collectedProcessedLog.length > 0){
         for(elem <- collectedProcessedLog){
-          println(elem.toString)
+          if(elem != None)
+            println(elem.get)
         }
     }else{
       println("list empty")
     }
     //for (elem <- collectedLogFile) {println(elem)}
   }
-  */
-
-    def main(args:Array[String]): Unit ={
-      val sparkMaster = "local[*]"
-      val sparkAppName = "etl_pfsense test driver"
-      val opts = new Config(1000,
-      1000,
-      "/tmp/logs",
-      "/tmp/checkpoint",
-      "/tmp/log_stats.html",
-      "/tmp/outPF",
-      "./src/main/resources/index.html.template")
-
-      val conf = new SparkConf()
-      conf.setAppName(sparkAppName)
-      conf.setMaster(sparkMaster)
-      //val ssc = new StreamingContext(conf,)
-
-
-    }
-
 }

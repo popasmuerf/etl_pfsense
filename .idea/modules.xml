@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/etl_pfsense.iml" filepath="$PROJECT_DIR$/etl_pfsense.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/etl_pfsense.iml" filepath="$PROJECT_DIR$/.idea/modules/etl_pfsense.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/etl_pfsense_main.iml" filepath="$PROJECT_DIR$/.idea/modules/etl_pfsense_main.iml" group="etl_pfsense" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/etl_pfsense_test.iml" filepath="$PROJECT_DIR$/.idea/modules/etl_pfsense_test.iml" group="etl_pfsense" />
     </modules>
